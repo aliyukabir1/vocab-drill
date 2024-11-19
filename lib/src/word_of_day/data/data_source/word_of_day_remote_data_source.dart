@@ -38,10 +38,3 @@ class WordOfDayRemoteDataSource {
     return result;
   }
 }
-
-
-
-// const wordsAPIKey = "cdb47dffa6msh7a5aa30d973ea3bp1ecd5cjsn0ee4d135d921"
-// const wordsAPIHost = "wordsapiv1.p.rapidapi.com"
-// const apiKeyHeader = "x-rapidapi-key"
-// const apiHostHeader = "x-rapidapi-host"
