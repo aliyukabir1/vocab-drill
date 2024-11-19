@@ -23,10 +23,11 @@ class WordMeaningPage extends StatelessWidget {
                 padding:
                     const EdgeInsets.symmetric(vertical: 5, horizontal: 20),
                 decoration: const BoxDecoration(
-                    border: Border.symmetric(
-                      horizontal: BorderSide(color: Colors.black12),
-                    ),
-                    color: Color.fromARGB(104, 225, 177, 233),),
+                  border: Border.symmetric(
+                    horizontal: BorderSide(color: Colors.black12),
+                  ),
+                  color: Color.fromARGB(104, 225, 177, 233),
+                ),
                 child: Column(
                   children: [
                     _buildInfoRow('definiton', result.definition),
