@@ -15,7 +15,7 @@ class _WordOfDayPageState extends State<WordOfDayPage> {
   @override
   void initState() {
     super.initState();
-    BlocProvider.of<WordOfDayBloc>(context).add(LoadWord(word: 'Happy'));
+    BlocProvider.of<WordOfDayBloc>(context).add(LoadWord(word: 'Great'));
   }
 
   @override
